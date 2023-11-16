@@ -30,7 +30,7 @@ class TestListComprehension:
 
     def test_say_names(self):
         '''say_names() returns a list of concatenated names'''
-        assert(say_names() == ["Chett Tiller", "Ricardo Guerra", "Charlie Kozie", "Alina Pisarenko", "Aakash, Sudhakar", "Sakib Rasul", "Daniel Gaston", "Ben Cavins", "Mohammad Hossain", "Chelsea Green"])
+        assert(say_names() == ["Chett Tiller", "Ricardo Guerra", "Charlie Kozie", "Alina Pisarenko", "Aakash Sudhakar", "Sakib Rasul", "Daniel Gaston", "Ben Cavins", "Mohammad Hossain", "Chelsea Green"])
 
     def test_get_dogs(self):
         '''get_dogs() returns a list of only dogs with the cats filtered out'''
