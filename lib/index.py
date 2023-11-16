@@ -87,7 +87,31 @@ def say_names():
 
 
 
-# 7. Use list comprehension to return a new list of each number in a range squared
+# 7. Use list comprehension to return a new list of only dogs
+
+# for example ["dog", "dog", "dog",...]
+
+def get_dogs():
+
+    pets = ["dog", "cat", "dog", "dog", "cat", "dog", "cat", "dog"]
+
+    return []
+
+
+
+# 8. Use list comprehension to return a new list of only even numbers
+
+# for example [8, 16, 20,...]
+
+def get_evens():
+
+    numbers = [1, 8, 9, 99, 16, 20, 21]
+
+    return []
+
+
+
+# 9. Use list comprehension to return a new list of each number in a range squared
 
 # for example [1,4,9,...]
 
@@ -99,7 +123,7 @@ def squared_numbers():
 
 
 
-# 8. Use list comprehension to return a new list of the average of each sub-list
+# 10. Use list comprehension to return a new list of the average of each sub-list
 
 # for example [15,35,0,...]
 

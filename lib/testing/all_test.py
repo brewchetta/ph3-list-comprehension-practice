@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from index import (capital_fruit, reversed_fruit, unspaced_fruit, upversed_fruit, inauguration_dates, say_names, squared_numbers, summed_lists)
+from index import (capital_fruit, reversed_fruit, unspaced_fruit, upversed_fruit, inauguration_dates, say_names, get_dogs, get_evens, squared_numbers, summed_lists)
 
 # import io
 # import sys
@@ -31,6 +31,14 @@ class TestListComprehension:
     def test_say_names(self):
         '''say_names() returns a list of concatenated names'''
         assert(say_names() == ["Chett Tiller", "Ricardo Guerra", "Charlie Kozie", "Alina Pisarenko", "Aakash, Sudhakar", "Sakib Rasul", "Daniel Gaston", "Ben Cavins", "Mohammad Hossain", "Chelsea Green"])
+
+    def test_get_dogs(self):
+        '''get_dogs() returns a list of only dogs with the cats filtered out'''
+        assert(get_dogs() == ["dog", "dog", "dog", "dog", "dog"])
+
+    def test_get_evens(self):
+        '''get_evens() returns a list of only even numbers'''
+        assert(get_evens() == [8,16,20])
 
     def test_squared_numbers(self):
         '''squared_numbers() returns each number in the range squared'''
