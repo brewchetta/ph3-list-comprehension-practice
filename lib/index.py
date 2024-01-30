@@ -123,7 +123,7 @@ def squared_numbers():
 
 
 
-# 10. Use list comprehension to return a new list of the average of each sub-list
+# 10. Use list comprehension to return a new list of the sum of each sub-list
 
 # for example [15,35,0,...]
 
